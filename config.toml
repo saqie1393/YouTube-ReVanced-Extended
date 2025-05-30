@@ -51,10 +51,10 @@ enabled = true
 build-mode = "module"
 arch = "arm64-v8a"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
 patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
-version = "9.0.48.380"
 excluded-patches = "'Lyrics search'"
 
 [Spotify-apk]
@@ -62,8 +62,8 @@ enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
 patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
-version = "9.0.48.380"
 excluded-patches = "'Lyrics search'"
