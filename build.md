@@ -1,4 +1,4 @@
-Spotify-apk: 9.0.46.493  
+YouTube: 19.47.53  
 
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
