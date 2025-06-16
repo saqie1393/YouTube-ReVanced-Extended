@@ -49,8 +49,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 [Spotify]
 enabled = true
 build-mode = "both"
-arch = "arm64-v8a"
-version = "9.0.46.493"
+arch = "both"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
