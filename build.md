@@ -1,7 +1,6 @@
-Music-Extended: 8.05.51  
-Spotify: 9.0.56.106  
-Telegram: 11.8.0  
-YouTube: 19.16.39  
+Instagram: 378.0.0.52.68  
+Spotify: 9.0.60.128  
+Telegram: 11.13.1  
 
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
