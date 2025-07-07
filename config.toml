@@ -6,7 +6,7 @@ cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 
 [YouTube]
-enabled = true
+enabled = false
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.16.39"#Remember to check the patch support version before each package
@@ -34,10 +34,10 @@ build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
-version = "11.8.0"
+version = "auto"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "YT Music"
 patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='YT Music' -OappNameLauncher='YT Music' -e 'Custom branding icon for YouTube Music' -OappIcon='vanced_black' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon='custom_branding_icon' -e 'Settings for YouTube Music' -OsettingsLabel='YT Premium'"
 version = "auto"
