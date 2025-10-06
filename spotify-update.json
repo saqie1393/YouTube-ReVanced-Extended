@@ -1,6 +1,6 @@
 {
-  "version": "v9.0.72.967 (patches dev.6)",
-  "versionCode": 12,
-  "zipUrl": "https://github.com/saqie1393/YouTube-ReVanced-Extended/releases/download/12/spotify-revanced-magisk-v9.0.72.967-arm64-v8a.zip",
+  "version": "v9.0.82.1032 (patches 3.14.0)",
+  "versionCode": 16,
+  "zipUrl": "https://github.com/saqie1393/YouTube-ReVanced-Extended/releases/download/16/spotify-revanced-magisk-v9.0.82.1032-all.zip",
   "changelog": "https://raw.githubusercontent.com/saqie1393/YouTube-ReVanced-Extended/update/build.md"
 }
