@@ -10,7 +10,7 @@ enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "auto"#Remember to check the patch support version before each package
-rv-brand = "MorpheApp"
+rv-brand = "YouTube"
 #Remember to change these two versions when the patch is updated
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
