@@ -12,7 +12,7 @@ build-mode = "both"#both means packing both apk and module at the same time. To 
 version = "auto"#Remember to check the patch support version before each package
 rv-brand =  "ReVanced Extended"
 #Remember to change these two versions when the patch is updated
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
