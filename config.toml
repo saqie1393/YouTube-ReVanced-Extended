@@ -11,10 +11,12 @@ cli-version = "latest"
 app-name = "YouTube"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "20.21.37"
+version = "auto"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/crimsonman/apk/com.google.android.youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
+patcher-args = " -e 'MaterialYou' -e 'Return YouTube Username' -e'Custom branding icon for YouTube' -OappIcon='mmt' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='yt_alt' -OapplyToAll='true' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -OinsertPosition=@string/about_key"
+
 
 
