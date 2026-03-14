@@ -1,18 +1,19 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
-patches-source = "anddea/revanced-patches"
+patches-source = "inotia00/revanced-patches"
 patches-version = "dev"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "inotia00/revanced-cli"
 cli-version = "latest"
+rv-brand = "ReVanced Extended"
 
 [YouTube-Extended]
 app-name = "YouTube"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "19.16.39"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+version = "auto"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/crimsonman/apk/com.google.android.youtube"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
 
