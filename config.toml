@@ -3,7 +3,7 @@ parallel-jobs = 1
 
 patches-source = "inotia00/revanced-patches"
 patches-version = "dev"
-cli-source = "inotia00/revanced-cli"
+cli-source = "MorpheApp/morphe-cli"
 cli-version = "latest"
 
 
