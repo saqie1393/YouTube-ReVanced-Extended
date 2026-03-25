@@ -23,6 +23,7 @@ patcher-args = " -e 'MaterialYou' -e 'Return YouTube Username' -e'Custom brandin
 
 
 [YouTube-Music-Extended]
+enabled = false
 app-name = "YouTube Music"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
