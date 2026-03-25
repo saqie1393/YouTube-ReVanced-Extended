@@ -1,3 +1,4 @@
+YouTube-Extended: 20.05.46  
 YouTube-Music-Extended (arm64-v8a): 8.30.54  
 YouTube-Music-Extended (arm-v7a): 8.30.54  
 
@@ -7,5 +8,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTub
 [revanced-magisk-module](https://github.com/saqie1393/YouTube-ReVanced-Extended)
   
 CLI: MorpheApp/morphe-cli-1.6.2-all.jar  
-Patches: anddea/patches-4.0.0-dev.9.mpp  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v4.0.0-dev.9)  
+Patches: anddea/patches-4.0.0-dev.11.mpp  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v4.0.0-dev.11)  
