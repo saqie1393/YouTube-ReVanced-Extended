@@ -1,4 +1,5 @@
-YouTube-Extended: 20.21.37  
+YouTube-Extended (arm64-v8a): 20.21.37  
+YouTube-Extended (arm-v7a): 20.21.37  
 
 Install [MicroG](https://github.com/MorpheApp/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
