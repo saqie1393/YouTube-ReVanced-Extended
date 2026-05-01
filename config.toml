@@ -37,16 +37,11 @@ patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 cli-version = "latest"
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-#direct-dlurl = "https://github.com/steven7851/revanced-magisk-module/releases/download/1/com.google.android.youtube-20.47.62-all.apk"
-arch = "all"
+build-mode = "both"
 patcher-args = """\
-    --striplibs arm64-v8a \
-    """
-included-patches = ""
-excluded-patches = """\
-    'Custom branding' \
+    -e 'Change header' -Ocustom=logos/vanced_og_header/ \
+    -e 'Custom branding' -OcustomName='YouTube' -OcustomIcon=logos/vanced_og_launcher/ \
     """
