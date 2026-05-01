@@ -1,14 +1,12 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
+[YouTube]
+enabled = true
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 cli-version = "latest"
-
-
-[YouTube]
-enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "auto"#Remember to check the patch support version before each package
@@ -30,3 +28,24 @@ build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[YouTube-Morphe]
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+patches-version = "latest"
+cli-version = "dev"
+rv-brand = "Morphe"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+#direct-dlurl = "https://github.com/steven7851/revanced-magisk-module/releases/download/1/com.google.android.youtube-20.47.62-all.apk"
+arch = "all"
+patcher-args = """\
+    --striplibs arm64-v8a \
+    """
+included-patches = ""
+excluded-patches = """\
+    'Custom branding' \
+    """
