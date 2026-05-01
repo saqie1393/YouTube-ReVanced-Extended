@@ -2,7 +2,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 
 [YouTube]
-enabled = true
+enabled = false
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
@@ -33,11 +33,11 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 enabled = true
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
 patches-version = "latest"
-cli-version = "dev"
+cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "apk"
+cli-version = "latest"
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
