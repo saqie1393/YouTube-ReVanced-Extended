@@ -1,36 +1,32 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
+patches-source = "anddea/revanced-patches"
+patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 cli-version = "latest"
 
-[YouTube-Extended]
+
+[YouTube]
+enabled = true
 app-name = "YouTube"
+build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
+version = "auto"#Remember to check the patch support version before each package
 rv-brand = "ReVanced Extended"
-build-mode = "both"
-version = "20.21.37"
-patches-source = "anddea/revanced-patches"
-patches-version = "latest"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/crimsonman/apk/com.google.android.youtube"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
+#Remember to change these two versions when the patch is updated
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
+included-patches = "'Custom header for YouTube'"#Mandatory inclusion list Patches have a default list, some are disabled by default
+patcher-args = " -e 'MaterialYou' -e 'Return YouTube Username' -e'Custom branding icon for YouTube' -OappIcon='youtube_black' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='yt_alt' -OapplyToAll='true' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -OinsertPosition=@string/about_key"
 
-[YouTube-Music-Extended]
-app-name = "YouTube Music"
-rv-brand = "ReVanced Extended"
+[Music-Extended]
+enabled = false
+app-name = "YT Music"
+patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='YT Music' -OappNameLauncher='YT Music' -e 'Custom branding icon for YouTube Music' -OappIcon='mmt' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon='gear' -e 'Settings for YouTube Music' -OsettingsLabel='YT Premium'"
+version = "auto"
 build-mode = "both"
-arch = "both"
-version = "8.30.54"
-patches-source = "anddea/revanced-patches"
-patches-version = "latest"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/crimsonman/apk/com.google.android.apps.youtube.music"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
-
-# [Instagram]
-# patches-source = "crimera/piko"
-# patches-version = "dev"
-# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-# archive-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
