@@ -44,4 +44,5 @@ build-mode = "both"
 patcher-args = """\
     -e 'Change header' -Ocustom=logos/vanced_og_header/ \
     -e 'Custom branding' -OcustomName='YouTube' -OcustomIcon=logos/vanced_og_launcher/ \
+    -e 'Custom header for YouTube' -OcustomHeader='custom'
     """
