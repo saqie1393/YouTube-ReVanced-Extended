@@ -2,7 +2,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 
 [YouTube]
-enabled = true
+enabled = false
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
@@ -48,7 +48,7 @@ patcher-args = """\
     """
 
 [X-Piko]
-enabled = true
+enabled = false
 app-name = "X"
 brand = "Piko"
 build-mode = "apk"
@@ -59,7 +59,7 @@ patches-source = "crimera/piko"
 patches-version = "dev"
 
 [Instagram-Piko]
-enabled = true
+enabled = false
 app-name = "Instagram"
 brand = "Piko"
 build-mode = "apk"
