@@ -44,7 +44,7 @@ build-mode = "both"
 patcher-args = """\
     -e 'Change header' -Ocustom=logos/vanced_og_header/ \
     -e 'Custom branding' -OcustomName='YouTube' -OcustomIcon=logos/vanced_og_launcher/ \
-    -e 'Change header' -Ocustom=morphe_header_custom \
+    -e 'morphe_header' -Ocustom=morphe_header_custom \
     """
 
 [X-Piko]
