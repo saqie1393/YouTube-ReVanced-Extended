@@ -2,7 +2,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 
 [YouTube]
-enabled = false
+enabled = true
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
@@ -20,7 +20,11 @@ included-patches = "'Custom header for YouTube'"#Mandatory inclusion list Patche
 patcher-args = " -e 'MaterialYou' -e 'Return YouTube Username' -e'Custom branding icon for YouTube' -OappIcon='mmt_turquoise' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='yt_alt' -OapplyToAll='true' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -OinsertPosition=@string/about_key"
 
 [Music-Extended]
-enabled = false
+enabled = true
+patches-source = "anddea/revanced-patches"
+patches-version = "latest"
+cli-source = "MorpheApp/morphe-cli"
+cli-version = "latest"
 app-name = "YT Music"
 patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='YT Music' -OappNameLauncher='YT Music' -e 'Custom branding icon for YouTube Music' -OappIcon='mmt' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon='gear' -e 'Settings for YouTube Music' -OsettingsLabel='YT Premium'"
 version = "auto"
@@ -48,23 +52,23 @@ patcher-args = """\
     """
 
 [X-Piko]
-enabled = false
+enabled = true
 app-name = "X"
 brand = "Piko"
 build-mode = "apk"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
-version = "latest"
+version = "auto"
 patches-source = "crimera/piko"
 patches-version = "dev"
 
 [Instagram-Piko]
-enabled = false
+enabled = true
 app-name = "Instagram"
 brand = "Piko"
 build-mode = "apk"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
-version = "426.0.0.37.68"
+version = "auto"
 patches-source = "crimera/piko"
 patches-version = "dev"
