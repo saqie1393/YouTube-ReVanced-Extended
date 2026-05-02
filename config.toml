@@ -46,3 +46,24 @@ patcher-args = """\
     -e 'Custom branding' -OcustomName='YouTube' -OcustomIcon=logos/vanced_og_launcher/ \
     -e 'Custom header for YouTube' -OcustomHeader='custom'
     """
+[X-Piko]
+enabled = true
+app-name = "X"
+brand = "Piko"
+build-mode = "apk"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
+version = "latest"
+patches-source = "crimera/piko"
+patches-version = "dev"
+
+[Instagram-Piko]
+enabled = true
+app-name = "Instagram"
+brand = "Piko"
+build-mode = "apk"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
+version = "426.0.0.37.68"
+patches-source = "crimera/piko"
+patches-version = "dev"
