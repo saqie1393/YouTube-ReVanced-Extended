@@ -52,7 +52,7 @@ patcher-args = """\
     """
 
 [Twitter]
-enabled = false
+enabled = true
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
