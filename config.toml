@@ -2,7 +2,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 
 [YouTube]
-enabled = false
+enabled = true
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
@@ -20,7 +20,7 @@ included-patches = "'Custom header for YouTube'"#Mandatory inclusion list Patche
 patcher-args = " -e 'MaterialYou' -e 'Return YouTube Username' -e'Custom branding icon for YouTube' -OappIcon='mmt_turquoise' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='yt_alt' -OapplyToAll='true' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -OinsertPosition=@string/about_key"
 
 [Music-Extended]
-enabled = false
+enabled = true
 patches-source = "anddea/revanced-patches"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
@@ -34,7 +34,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Morphe]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 patches-version = "latest"
@@ -52,18 +52,18 @@ patcher-args = """\
     """
 
 [Twitter]
-enabled = false
+enabled = true
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
+build-mode = "both"
 version = "11.81.0-release.0"
 include-stock = "split"
 
 [Instagram-Piko]
-enabled = true
+enabled = false
 app-name = "Instagram"
 rv-brand = "Piko"
 build-mode = "apk"
