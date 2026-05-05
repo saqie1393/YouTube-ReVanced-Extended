@@ -52,7 +52,7 @@ patcher-args = """\
     """
 
 [Twitter]
-enabled = true
+enabled = false
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
@@ -67,8 +67,9 @@ enabled = true
 app-name = "Instagram"
 brand = "Piko"
 build-mode = "apk"
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
+#uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
+github_release-dlurl = "https://github.com/E85Addict/APKs/releases/latest"
 version = "423.0.0.47.66"
 patches-source = "crimera/piko"
 patches-version = "dev"
